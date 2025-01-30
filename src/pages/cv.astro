@@ -1,0 +1,139 @@
+---
+import BaseLayout from "../layouts/BaseLayout.astro";
+import TimeLineElement from "../components/cv/TimeLine.astro";
+---
+
+<BaseLayout title="Resume" sideBarActiveItemID="cv">
+  <div class="mb-5">
+  </div>
+  <div class="mb-5">
+    <div class="text-3xl w-full font-bold">Interests</div>
+  </div>
+  <div class="mb-10 text-justify">
+    Research & Development, Data Science, Machine Learning, AI Systems, Information retrieval, Database Management
+  </div>
+
+  <div class="mb-5">
+    <div class="text-3xl w-full font-bold">Education</div>
+  </div>
+
+  <div class="time-line-container grid gap-4 mb-10">
+    <TimeLineElement
+      title="Ph.D. Computer Engineering"
+      subtitle="Arizona State University (2015-2020)"
+    />
+    <TimeLineElement
+      title="M.S. in Computer Systems and Software Design"
+      subtitle="Jacksonville State University (2012-2014)"
+    />
+    <TimeLineElement
+    title="Master1 in Intelligent Systems"
+    subtitle="Faculté des Sciences de Kénitra, Morocco (2011-2012)"
+  />
+    <TimeLineElement
+    title="Bachelor of Electronics, Telecommunications, and Computer Science"
+    subtitle="Faculté des Sciences et Techniques de Fes, Morocco (2008-2011)"
+    />
+  </div>
+
+  <div class="mb-5">
+    <div class="text-3xl w-full font-bold">Experience</div>
+  </div>
+
+  <div class="time-line-container mb-10"> 
+    <TimeLineElement
+      title="Sr. Research and Development Engineer at Nikola Motor (2022-2024)"
+      subtitle="Phoenix, Arizona "
+    >
+    • System safety engineering and development of Automated-Driver Assist features for FCEV semi-trucks 
+    <br>
+    • Software-in-the-loop (SIL), Hardware-in-the-Loop (HIL), and in-field testing
+    <br>
+    • Prototyping, Performance Analysis using timeseries log signals, Diagnosis, and Control Optimization
+    <br>
+    <TimeLineElement
+        title="Postdoctoral Researcher at iMPACT Lab (2020-2022)"
+        subtitle="Tempe, AZ"
+      >
+    • Development of a novel AI-based method for operational model extraction
+    <br>
+    • Development of a novel safety evaluation using hybrid automata learning
+    <br>
+    • Contributed to grant proposals writing, research and development, and results generation 
+    </TimeLineElement>
+    <TimeLineElement
+      title="Research and Teaching Assistant at Arizona State University (2015-2020)"
+      subtitle="Tempe, AZ "
+    >
+    • Led and Contributed to multiple research projects (Artificial Pancreas, ASL AI tutor, AI Safety)
+    <br>
+    • Provided teaching assistanship
+    <br>
+    • Taught capstone and lab classes.
+    </TimeLineElement>
+    <TimeLineElement
+      title="ORISE Research Fellow at Food and Drug Administration (05/2017-08/2017)"
+      subtitle="Silver Spring, MD "
+    >
+    • Evaluating self-adaptive control for the Artificial Pancreas
+    </TimeLineElement>
+    <TimeLineElement
+    title=" Intern at Square Zero (05/2013-01/2014)"
+    subtitle="Santa Barbara, CA - Remote"
+  >
+  • Analysis and implementation of different factoring algorithms using C++
+  </TimeLineElement>
+  <TimeLineElement
+  title=" Intern at SNRT (05/2013-01/2014)"
+  subtitle="Rabat, Morocco"
+>
+• VLSI implementation of Reed Solomon Code for errors detection and correction (Graduation Project)
+</TimeLineElement>
+  </div>
+  <div class="text-3xl w-full font-bold">Recognitions and Awards</div>
+  </div>
+  <div class="mb-10 text-justify">Arizona State University, CIDSE- Doctoral Fellowship Award
+    • Oak Ridge Institute for Science and Education (ORISE) Research Fellowship
+    <br>
+    • French-American Doctoral Exchange(FADEx)-CPS Laureate
+    <br>
+    • Jacksonville State University- International House Program Scholarship 
+    <br>
+    • Faculté des Sciences de Kénitra- Merit Scholarship 
+  </div>
+
+  <!-- <div class="mb-5">
+    <div class="text-3xl w-full font-bold">Certifications</div>
+  </div>
+
+  <ul class="list-disc mx-6 mb-10 grid gap-2">
+    <li>
+      <a href="#" target="_blank"> Certification Name (with link)</a>
+    </li>
+    <li>
+      <a href="#" target="_blank"> Certification Name (with link)</a>
+    </li>
+  </ul>
+
+  <div class="mb-5">
+    <div class="text-3xl w-full font-bold">Skills</div>
+  </div> -->
+</div>
+<div class="text-3xl w-full font-bold">Skills</div>
+</div>
+  <ul class="list-disc md:columns-5 columns-2 mx-6">
+    <li>Matlab</li>
+    <li>Simulink</li>
+    <li>Python-Pytorch TensorFlow, Keras</li>
+    <li>C/C++</li>
+    <li>JAVA</li>
+    <li>SQL</li>
+    <li>PL-SQL</li>
+    <li>CanAlyzer</li>
+    <li>Git</li>
+    <li>Jama</li>
+    <li>Jira</li>
+    <li>French</li>
+    <li>Arabic</li>
+  </ul>
+</BaseLayout>
