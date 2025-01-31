@@ -7,5 +7,6 @@ import tailwind from "@astrojs/tailwind";
 export default defineConfig({
   site: 'https://drlamrani.github.io',
   base: "/main",
-  integrations: [mdx(), sitemap(), tailwind()]
+  outDir: 'public',
+  publicDir: 'static',
 });
