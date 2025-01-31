@@ -20,13 +20,12 @@ jobs:
       - name: Setup pnpm
         uses: pnpm/action-setup@v2
         with:
-          version: 8  # Specify the pnpm version you need
-
-      - name: Install dependencies using pnpm
-        run: pnpm install
+          version: 8  # Change this to the latest stable pnpm version if needed
 
       - name: Install, build, and upload your site
         uses: withastro/action@v3
+        with:
+          package-manager: pnpm@8  # Explicitly specify pnpm version
 
   deploy:
     needs: build
