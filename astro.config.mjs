@@ -8,5 +8,5 @@ export default defineConfig({
   site: 'https://drlamrani.github.io',
   outDir: 'public',
   publicDir: 'static',
-  integrations: [mdx(), sitemap(), tailwind()],
+  integrations: [mdx(), sitemap(), tailwind()]
 });
