@@ -6,7 +6,6 @@ import tailwind from "@astrojs/tailwind";
 // https://astro.build/config
 export default defineConfig({
   site: 'https://drlamrani.github.io',
-  base: "/main",
   outDir: 'public',
   publicDir: 'static',
 });
