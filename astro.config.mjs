@@ -7,5 +7,5 @@ import tailwind from "@astrojs/tailwind";
 export default defineConfig({
   site: 'https://drlamrani.github.io',
   outDir: 'public',
-  publicDir: 'static',
+  publicDir: 'static'
 });
