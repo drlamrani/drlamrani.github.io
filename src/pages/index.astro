@@ -8,12 +8,12 @@ const posts = (await getCollection("blog")).sort((a, b) => b.data.pubDate.valueO
 
 const last_posts = posts.slice(0, 3);
 ---
-<img src="/headshot.jpg" alt="" width="400" height="400" /> 
 <BaseLayout sideBarActiveItemID="home">
   <div class="pb-12 mt-5">
     <div class="text-xl py-1">Welcome | Vous êtes les bienvenus | مرحبا  </div>
     <div class="text-4xl font-bold">Imane Lamrani</div>
     <div class="text-2xl py-3 font-bold"> Research Scientist </div>
+    <img src="/headshot.jpg" alt="" width="400" height="400" /> 
     <div class="py-2">
       <text class="text-lg">
         My research focuses on the safety of artificial intelligence (AI)-based cyber-physical systems with an emphasis on the intersection of AI, systems safety engineering, and health technology. As a postdoctoral research scholar, I have developed a wide range of expertise in AI and safety-critical systems. In addition to my academic experience, I have gained experience in the automative industry developing automated driver-assist features (ADAS). My academic and industry experience has shaped my interest in advancing and expanding the boundaries of safety analysis and monitoring of AI-enabled technologies that impact human lives and the environment.
